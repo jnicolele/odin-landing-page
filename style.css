@@ -15,12 +15,28 @@ header {
 
 .logo-nav {
     display: flex;
-    justify-content: space-between;
-    padding: 16px 32px;
+    justify-content: space-around;
+    padding: 16px;
+    margin: 
+}
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+img {
+    height: auto;
+    width: 300px;
 }
 
 #logo {
-    
+    font-size: 24px;
+    color: #f9f8fa;
 }
 
 ul {
