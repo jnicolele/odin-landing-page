@@ -13,25 +13,57 @@ header {
 
 }
 
+section {
+    width: auto;
+    max-height:max-content;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo-nav {
     display: flex;
     justify-content: space-around;
-    padding: 16px;
-    margin: 
+    padding: 16px; 
 }
+
+.hero-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 32px;
+}
+
 .hero-text-container {
     display: flex;
     flex-direction: column;
-
+    gap: 8px;
+    width: 500px;
 }
-.hero {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    padding: 4px;
+    height: auto;
+    width: 100px;
+    border-radius: 6px;
+
 }
 img {
     height: auto;
-    width: 300px;
+    max-width: 100%;
+}
+
+.hero-text {
+    font-size: 48px;
+    color: F9FAF8;
+    font-weight: 900;
+}
+
+.hero-par {
+    font-size: 18px;
+    color: #EFE7EB;
 }
 
 #logo {
@@ -45,4 +77,113 @@ ul {
     gap: 16px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    padding: 16px;
+    margin: 32px;
+    font-family: Roboto, sans-serif;
+}
 
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+}
+
+.info-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 200px;
+    height: 100%;
+}
+
+.info-sub > img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.testimonial .inspirational {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;;
+    width: 1000px;
+    margin: auto;
+}
+
+.testimonial .author {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1f2937;;
+    width: 1000px;
+    margin: auto;
+    text-align: right;    
+}
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta-container {
+    display:flex;
+    justify-content: space-between;
+    gap: 64px;
+    flex-basis: 1 1 0;
+    padding: 32px 64px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color:white;
+    font-family: Roboto, sans-serif;
+}
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.cta-container .sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1 1 0;
+    border: 2px solid white;
+    font-weight: 700;
+}
+
+footer {
+    padding: 32px;
+    background-color: #1f2937;
+    color: #f9f8fa;
+    font-family: Roboto, sans-serif;
+    text-align: center;}
